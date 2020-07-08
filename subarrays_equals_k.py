@@ -26,7 +26,7 @@ def cumulative_sum(A,k):
 
 from collections import defaultdict  
 
-def hashmap(A,k): #Time complexity : O(n^2) , Space complexity : O(n)
+def hashmap(A,k): 
     n = len(A)
 
     memory = defaultdict(list) #Allows append values when a key value does not exist still
